@@ -46,7 +46,6 @@ input{
     display: flex;
     justify-content: space-around;
     
-
 }
 
 .result{
@@ -151,4 +150,12 @@ input{
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+}
+
+
+@media (max-width:320px) {
+    .forms{
+    flex-direction: column;
+    align-items: center;
+    }
 }
