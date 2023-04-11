@@ -1,32 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Roboto&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Poppins' , sans-serif;
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    padding-top: 10px;
+    background-color: hsl(0, 0%, 86%);
 }
 .container{
         /* border: 1px solid black; */
-        width: 60%;
-        height: 400px;
+        width: 70%;
+        /* height: 1s0%; */
         display: flex;
         justify-content: center;
         flex-direction: column;
-        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        background-color: hsl(0, 0%, 94%);
         border-radius: 3rem;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 2em;
         
+}
+
+hr{
+    height: 2rem;
+    border-style: none;
+}
+
+input{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 1rem;
+    border-style:none;
+    text-align: center;
 }
 
 .forms{
@@ -40,11 +51,11 @@ body{
 
 .result{
     /* border: 1px solid red; */
-    padding-top: 2rem ;
+    padding-top: 1rem ;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 2px;
 
 }
 
@@ -52,15 +63,15 @@ body{
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .btn > button{
     font-size: large;
     color: #e3ffe7;
-    height: 2rem;
-    width: 2rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 100%;
     border-style: none;
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
@@ -74,21 +85,24 @@ body{
 }
 
 .days>p{
-    color:blue;
-    font-size: 40px;
+    color:hsl(259, 100%, 65%);
+    font-size: 70px;
     font-weight: 300;
+    font-style: italic;
 }
 
 .months>p{
-    color:blue;
-    font-size: 40px;
+    color:hsl(259, 100%, 65%);
+    font-size: 70px;
     font-weight: 300;
+    font-style: italic;
 }
 
 .years>p{
-    color:blue;
-    font-size: 40px;
+    color:hsl(259, 100%, 65%);
+    font-size: 70px;
     font-weight: 300;
+    font-style: italic;
 }
 
 .custom{
@@ -97,7 +111,7 @@ body{
 
 .days{ 
     display: flex;
-    gap: 10px;
+    gap: 50px;
     width: 300px;
     justify-content: center;
     align-items: center;
@@ -106,7 +120,7 @@ body{
 
 .months{
      display: flex;
-     gap: 10px;
+     gap: 50px;
      width: 300px;
      justify-content: center;
      align-items: center;
@@ -114,7 +128,7 @@ body{
 
 .years{ 
     display: flex;
-    gap: 10px;
+    gap: 50px;
     width: 300px;
     justify-content: center;
     align-items: center;
